@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     btn.addEventListener('click', () => {
-        Promise.all(randomColor(),getRandomQuote())
+        Promise.all([randomColor(),getRandomQuote()])
     });
 });
