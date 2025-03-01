@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    max-width: 535px;
+    max-width: 600px;
     margin: 10px 0;
     padding: 20px 30px;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .authorDisplay {
-    text-align: right; /* Align the author name to the right */
+    text-align: right; 
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 10px;
